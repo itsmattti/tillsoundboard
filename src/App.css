@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200;12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&display=swap');
+
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+.custom-box-shadow {
+    box-shadow: 0 10px 0 #be2323;
+  }
+  
+  .custom-box-shadow:hover {
+    box-shadow: 0 7px 0 #be2323; /* Slightly raised on hover */
+  }
+  
+  .custom-box-shadow:active {
+    box-shadow: 0 0px 0 #be2323; /* Pressed down effect */
+  }
+  
