@@ -7,14 +7,33 @@
 @import "tailwindcss/utilities";
 
 .custom-box-shadow {
-    box-shadow: 0 10px 0 #be2323;
+    box-shadow: 0 10px 0 #a30e0e;
   }
   
   .custom-box-shadow:hover {
-    box-shadow: 0 7px 0 #be2323; /* Slightly raised on hover */
+    box-shadow: 0 7px 0 #a30e0e; /* Slightly raised on hover */
   }
   
   .custom-box-shadow:active {
-    box-shadow: 0 0px 0 #be2323; /* Pressed down effect */
+    box-shadow: 0 0px 0 #a30e0e; /* Pressed down effect */
   }
   
+.custom-box-shadow2 {
+box-shadow: 0 10px 0 #d4d4d4;
+}
+
+.custom-box-shadow2:hover {
+box-shadow: 0 7px 0 #d4d4d4; /* Slightly raised on hover */
+}
+
+.custom-box-shadow2:active {
+box-shadow: 0 0px 0 #d4d4d4; /* Pressed down effect */
+}
+  
+.selector {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
